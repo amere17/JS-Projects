@@ -15,7 +15,7 @@ const reviews = [{
     },
     {
         id: 3,
-        name: "Tasnem abo oda",
+        name: "Mark",
         job: "intern",
         img: "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg",
         text: "Sriracha literally flexitarian irony, vape marfa unicorn. Glossier tattooed 8-bit, fixie waistcoat offal activated charcoal slow-carb marfa hell of pabst raclette post-ironic jianbing swag.",
@@ -41,7 +41,7 @@ const randomBtn = document.querySelector(".random-btn");
 
 
 let currentItem = 0;
-
+// ------------- show person Function ---------
 function showPerson(person) {
     const item = reviews[person];
     img.src = item.img;
